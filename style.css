@@ -8,7 +8,7 @@ h1{
 .orange-text{
     color: orange;
 }
-Section{
+.flexible-container{
     display: flex;
     margin-bottom: 150px;
 }
@@ -27,6 +27,11 @@ Section{
     padding-right: 5%;
     padding-top: 5%;
 }
+.half-width-ex {
+    width: 50%;
+    padding-right: 5%;
+    padding-left: 5%;
+}
 .linked-button{
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
@@ -42,7 +47,7 @@ Section{
 .dream-big{
     background-image: url(images/half\ golla\ re-sized.png);
     background-repeat: no-repeat;
-    background-size: 10%;
+    background-size: 8%;
     background-position: bottom right;
     
 }
