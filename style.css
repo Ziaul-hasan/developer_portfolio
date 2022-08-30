@@ -11,15 +11,22 @@ h1{
 .flexible-container{
     display: flex;
     margin-bottom: 150px;
+    
+}
+.top-banner.flexible-container{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
 }
 .half-width{
-    width: 50%;
+    width: 42%;
     padding-left: 5%;
     padding-right: 5%;
     margin-left: 20px;
 }
 .half-width img{
-    width: 80%;
+    max-width: 100%;
     padding-top: 5%;
 }
 .half-width-next{
@@ -29,8 +36,22 @@ h1{
 }
 .half-width-ex {
     width: 50%;
-    padding-right: 5%;
-    padding-left: 5%;
+    padding: 3%;
+    box-shadow: 10px 10px 40px 10px grey;
+    border-radius: 10px;
+}
+#full-stack{
+    border-left: 7px solid orangered;
+    margin-left: 5%;
+    margin-right: 3%;
+}
+#baby{
+    border-left: 7px solid rgb(22, 22, 204);
+    margin-left: 5%;
+    margin-right: 3%;
+}
+.size{
+    font-size: 40px;
 }
 .linked-button{
     text-decoration: none;
@@ -50,4 +71,15 @@ h1{
     background-size: 8%;
     background-position: bottom right;
     
+}
+.experience{
+    background-image: url(images/golla\ croped.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 28%;
+}
+footer p{
+    text-align: center;
+    color: gray;
+    padding: 2%;
 }
