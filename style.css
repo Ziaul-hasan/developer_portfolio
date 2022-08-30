@@ -10,6 +10,7 @@ h1{
 }
 Section{
     display: flex;
+    margin-bottom: 150px;
 }
 .half-width{
     width: 50%;
@@ -19,6 +20,11 @@ Section{
 }
 .half-width img{
     width: 80%;
+    padding-top: 5%;
+}
+.half-width-next{
+    width: 50%;
+    padding-right: 5%;
     padding-top: 5%;
 }
 .linked-button{
@@ -32,4 +38,11 @@ Section{
 .top-banner{
     background-image: url(images/butli\ background2.png);
     background-repeat: no-repeat;
+}
+.dream-big{
+    background-image: url(images/half\ golla\ re-sized.png);
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: bottom right;
+    
 }
